@@ -17,4 +17,18 @@ this.
 ## Runtime Analysis
 
 What is the time complexity of your implementation (worst-case $\Theta$)? Add
-your answer, including your reasoning, to this markdown file.
+your answer, including your reasoning, to this markdown file.  
+
+
+**QUESTION**:
+I am very sorry to bother you, but I am at a genuine loss as to how I am supposed to  
+return the value that was gotten from the asynchronous map-reduce approach. The function  
+that it's in always returns too soon and gives me the wrong answer. As a result, I've been  
+trying to use the callback function, but I've been unable to figure out how to make that  
+actually return a value as opposed to just printing out a value (which is utterly useless  
+when it comes to testing). I've been looking into ways to get the function to *wait* until  
+the map-reduce line has finished, but none of them seem to be useful. I've looked into Promises  
+but they don't seem to work either and are very confusing. If you could give me an explicit  
+example of how I can return the proper value, or at least let me know the approach I should  
+take, I'd be very grateful because after nearly 2 hours of working on this I am no closer to  
+being finished with it. Thank you.
