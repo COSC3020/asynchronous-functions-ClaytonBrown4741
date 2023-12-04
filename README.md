@@ -20,10 +20,6 @@ What is the time complexity of your implementation (worst-case $\Theta$)? Add
 your answer, including your reasoning, to this markdown file.  
 
 
-**QUESTION**:
-I did what you asked and added a test case that was ran in the callback function.  
-However, I've found that I can only run 1 test before my code starts runnning into  
-errors. Is there any way you can think of that would allow me to run multiple tests?  
-Once again, I'm very sorry to bother you with these questions, but the idea of debugging  
-and testing asynchronous functions wasn't something we went over in class so I'm a little  
-confused on that topic.
+**Note**:
+The code and test cases should both be good to go now. I'll come back and do the  
+runtime analysis soon (hopefully tomorrow)
