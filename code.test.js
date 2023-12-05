@@ -53,3 +53,12 @@ async function cb5(endValue){
         //}
 }
 nmPMR(dm5, 5, cb5)
+
+dm6 = [];
+async function cb6(endValue){
+        await assert(endValue == 0)
+        //if (endValue != 12){
+        //        console.log("ERROR: THE END VALUE IS NOT THE CORRECT VALUE OF 12")
+        //}
+}
+nmPMR(dm6, 6, cb6)
