@@ -34,6 +34,7 @@ nmPMR(dm3, 3, cb3)
 
 dm4 = [1,1,1,1,2,1,3,5,3,2,2,1,2,3,4,4,3,2,1];
 function cb4(endValue){
+	assert(endValue == 3)
         if (endValue != 3){
                 console.error("ERROR: THE END VALUE IS NOT THE CORRECT VALUE OF 0")
         }
